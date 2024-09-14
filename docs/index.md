@@ -1,0 +1,72 @@
+---
+title: Welcome to the IM-POWER website
+summary: Introduction to the wiki doc
+authors: 
+    - Bonaventura Tagliafierro
+    - Malin Göteman
+date: 2024-09-11
+some_url: TBD
+---
+# **Introduction!**
+
+The open-source project DualSPHysics aims at promoting the an friendly platfomr for numerical simulations based on the on the Smoothed Particle Hydrodynamics method. As a natural iteration of  of the open-source [**SPHysics**](https://www.mkdocs.org), DualSPHysics has expanced the first idea and pushed it on a software platform compatible to CPU/GPU hardware. The code  developed to study free-surface flow phenomena where Eulerian methods can be difficult to apply, such as waves or impact of dam-breaks on off-shore structures. DualSPHysics is a set of C++, CUDA and Java codes designed to deal with real-life engineering problems.
+
+# **Project layout**
+
+
+
+# **Code Developers and Mainteiners**
+Different countries and institutions collaborate in the development of DualSPHysics. The project is the result of the collaboration of many organisations from Spain, United Kingdom, Portugal, Belgium, Italy and United States. The following list includes the researchers that have collaborated in the current version
+of the code or are working in functionalities to be updated in future releases.
+
+## Project Leaders:
+* **Dr José M. Domínguez**. Universidade de Vigo, Spain
+* **Dr Georgios Fourtakas**. The University of Manchester, UK
+* **Prof. Alejandro J.C. Crespo**. Universidade de Vigo, Spain
+* **Prof. Benedict D. Rogers**. The University of Manchester, UK
+* **Dr Renato Vacondio**. Università degli studi di Parma, Italy
+* **Dr Corrado Altomare**. Universitat Politècnica de Catalunya – BarcelonaTech, Spain
+* **Dr Angelo Tafuni**. New Jersey Institute of Technology, US
+
+### Project Coordinators:
+* **Prof. Peter Stansby**. The University of Manchester, UK
+* **Prof. Moncho Gómez Gesteira**. Universidade de Vigo, Spain
+
+### Development Coordinator:
+* **Dr José M. Domínguez**. Universidade de Vigo, Spain
+
+### Developers:
+* **Dr Orlando García Feal**. Universidade de Vigo, Spain
+* **Dr Joseph O’Connor**. Imperial College London, UK
+* **Dr Aaron English**. The University of Manchester, UK
+* **Dr Iván Martínez Estévez**. Universidade de Vigo, Spain
+* **Francesco Ricci**. New Jersey Institute of Technology, US
+
+### Contributors:
+* **Dr Steven Lind**. The University of Manchester, UK 
+* **Dr Abouzied Nasar**. The University of Manchester, UK 
+* **Dr Bonaventura Tagliafierro**. Universitat Politècnica de Catalunya – BarcelonaTech, Spain
+* **Riddhiman Suri**. The University of Manchester, UK 
+* **Ruofeng Feng**. The University of Manchester, UK 
+* **Chunze Cen**. The University of Manchester, UK 
+* **Cong Yao**. The University of Manchester, UK 
+
+### Alumni – Former Developers:
+* **Dr José González Cao**. Universidade de Vigo, Spain
+* **Dr Ricardo Canelas**. Instituto Superior Tecnico, Lisbon, Portugal
+* **Dr Athanasios Mokos**. The University of Manchester, UK
+* **Dr Stephen Longshaw**. Science & Technology Facilities Council, UK
+* **Dr Anxo Barreiro**. Universidade de Vigo, Spain
+
+### Alumni – Former Contributors:
+* **Dr Tomohiro Suzuki**. Flanders Hydraulics Research, Belgium
+* **Dr Mashy D Green**. Imperial College London, UK
+* **Dr Carlos Enrique Alvarado Rodríguez**. Universidad de Guanajuato, Mexico
+* **Dr Tim Verbrugghe**. Universiteit Gent, Belgium
+* **Dr Md Lokman Hosain**. Mälardalen University, Sweden
+* **Dr Moisés Gonçalves de Brito**. Instituto Superior Técnico de Lisboa, Portugal
+* **Dr Nicolas Quartier**. Universiteit Gent, Belgium
+* **Dr Alex Chow**. University of Manchester
+* **Dr Georgina Reece**. University of Manchester
+
+

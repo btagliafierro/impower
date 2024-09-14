@@ -1,0 +1,84 @@
+site_name: IM-POWER
+site_url: https://example.com/
+site_author: Bonaventura Tagliafierro
+
+nav:
+  - Main: 
+    - "Introduction": index.md
+    - "Origin": formulation/history.md
+  - "Theory manual": 
+    - SPH Implementation: 'formulation/fundamentals.md'
+    - "Boundary conditions": 'formulation/boundary.md'
+
+theme: 
+  name: material
+  language: 'en'
+  font:
+      text: Roboto
+  custom_dir: overrides/
+  show_sidebar: true
+  favicon: assets/images/favicon.ico
+  logo: assets/images/impower.png
+  include_homepage_in_sidebar: false
+  highlightjs: true
+  hijs_languages:
+      - python
+  icon:
+      logo: assets/images/impower.png
+      annotation: material/arrow-right-circle
+  palette:
+      primary: light green
+
+
+
+
+  previous: fontawesome/solid/angle-left
+  next: fontawesome/solid/angle-right
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top        # Creates a back-to-top "arrow icon" at bottom RHS.
+    - navigation.tabs      # Top-level sections are rendered in a menu layer below the header.
+    - navigation.expand     # Left sidebar will expand all collapsible subsections by default.
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.footer
+  
+  plugins:
+  - search
+  - bibtex:
+    bib_file: bib.bib
+  - awesome-pages:
+    collapse_single_pages: true
+copyright: Copyright &copy; 2024 -  Bonaventura Tagliafierro      
+extra:
+  homepage: https://example.com
+  version: 0.0
+markdown_extensions:
+    - tables
+    - smarty
+    - toc:
+        toc_depth: 3
+        permalink: True
+        separator: "_"
+    - mdx_math:
+        enable_dollar_delimiter: True
+    - fenced_code
+    - footnotes
+    - pymdownx.arithmatex:
+        generic: true
+    - attr_list
+    - md_in_html
+    - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+  - meta
+  - admonition
+  - stylesheets/custom.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML

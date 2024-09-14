@@ -1,0 +1,18 @@
+
+
+h1 {
+  color: rgb(25, 148, 52);
+  font-size: 150%;
+}
+p {
+  color: rgb(12, 6, 6);
+  font-size: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.footnote-ref {
+  font-size: 1.1em !important;
+  color: #4fd95d !important;
+}
+
