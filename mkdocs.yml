@@ -3,10 +3,9 @@ site_url: https://example.com/
 site_author: Bonaventura Tagliafierro
 
 nav:
-  - Main: 
-    - "Introduction": index.md
-  - Overview: 
-    - "Methodology": 'pages/methodology.md'
+  - Main: index.md
+  - Background: 'pages/background.md'
+  - Overview: 'pages/methodology.md'
   - Software:
     - "Code": 'pages/code.md'
 
@@ -23,7 +22,7 @@ theme:
   hijs_languages:
       - python
   icon:
-      logo: assets/images/impower.png
+      logo: assets/images/logo.png
       annotation: material/arrow-right-circle
   palette:
     # Light mode configuration
@@ -38,9 +37,9 @@ theme:
     # Dark mode configuration
     - media: "(prefers-color-scheme: dark)"
       scheme: slate            # Slate dark mode for better contrast
-      primary: 'green'         # Still use green in dark mode
-      accent: 'light-green'    # Use a lighter green for accent in dark mode
-      background: 'black'      # Dark mode with black background
+      primary: 'blue'         # Still use green in dark mode
+      accent: 'light-blue'    # Use a lighter green for accent in dark mode
+      background: 'gray'      # Dark mode with black background
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode

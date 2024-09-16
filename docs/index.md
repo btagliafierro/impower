@@ -34,9 +34,5 @@ Due to the transversal competences that this task requires, Dr. Tagliafierro wil
 
 ## **Scientific and social objectives**
 
-![IM-POWER project overview](assets/images/overview.png)
-
-*Figure 1: it illustrate a floating offshore wind farm diagram: from offshore power generation
-to the grid transmission lines*
 
 
