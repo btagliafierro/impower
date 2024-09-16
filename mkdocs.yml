@@ -17,7 +17,7 @@ theme:
   custom_dir: overrides/
   show_sidebar: true
   favicon: assets/images/favicon.ico
-  logo: assets/images/impower.png
+  logo: assets/images/logo.png
   include_homepage_in_sidebar: false
   highlightjs: true
   hijs_languages:
