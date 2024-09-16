@@ -16,3 +16,8 @@ p {
   color: #4fd95d !important;
 }
 
+:root {
+  --md-primary-fg-color: #4caf50; /* Custom primary green */
+  --md-primary-bg-color: #e8f5e9; /* Light green background */
+  --md-accent-fg-color: #8bc34a;  /* Custom accent green */
+}

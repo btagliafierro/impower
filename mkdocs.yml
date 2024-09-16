@@ -6,7 +6,7 @@ nav:
   - Main: 
     - "Introduction": index.md
     - "Origin": formulation/history.md
-  - "Theory manual": 
+  - Theory manual: 
     - SPH Implementation: 'formulation/fundamentals.md'
     - "Boundary conditions": 'formulation/boundary.md'
 
@@ -27,7 +27,24 @@ theme:
       logo: assets/images/impower.png
       annotation: material/arrow-right-circle
   palette:
-      primary: light green
+    # Light mode configuration
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'green'         # Base color as green
+      accent: 'light-green'    # Use a lighter green for accents
+      background: 'white'      # Default light background
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode configuration
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate            # Slate dark mode for better contrast
+      primary: 'green'         # Still use green in dark mode
+      accent: 'light-green'    # Use a lighter green for accent in dark mode
+      background: 'black'      # Dark mode with black background
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 
 
@@ -77,6 +94,7 @@ extra_css:
   - meta
   - admonition
   - stylesheets/custom.css
+  - https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6

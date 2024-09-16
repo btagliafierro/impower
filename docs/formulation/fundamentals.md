@@ -3,13 +3,11 @@ title: SPH implementation in DualSPHysics
 summary: Introduction to wiki doc
 authors: 
     - Bonaventura Tagliafierro
-    - Alejandro J. C. Crespo
 date: 2023-11-11
 some_url: TBD
 ---  
 
 # **SPH Formulation**
-
 
 Smoothed Particle Hydrodynamics (SPH) is a Lagrangian meshless method. The
 technique discretises a continuum using a set of material points or particles. When used

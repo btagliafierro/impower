@@ -1,0 +1,35 @@
+:root {
+    --md-default-font-family: "Quicksand", sans-serif;
+    --md-typeset-font-family: "Quicksand", sans-serif;
+  }
+  
+  body {
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  /* custom.css */
+
+/* Style for the unordered list */
+ul.fancy-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;       /* Remove default padding */
+  }
+  
+  ul.fancy-list li {
+    position: relative; /* Positioning for custom bullet */
+    padding-left: 2.5em; /* Space for custom bullet */
+    margin-bottom: 1em; /* Space between list items */
+    font-family: "Source Sans Pro", sans-serif; /* Font for list items */
+    font-size: 1em; /* Font size for list items */
+  }
+  
+  /* Custom bullet style */
+  ul.fancy-list li::before {
+    content: "✦"; /* Use a fancy symbol as bullet */
+    position: absolute; /* Position it before the list item */
+    left: 0; /* Align to the left of the list item */
+    color: #4caf50; /* Custom bullet color (green) */
+    font-size: 1.5em; /* Size of the bullet */
+    line-height: 1; /* Align with text */
+  }
+  
