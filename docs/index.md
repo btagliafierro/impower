@@ -7,6 +7,8 @@ authors:
 date: 2024-09-11
 some_url: TBD
 ---
+# Introduction <img src="assets/images/logo.png" alt="IM-POWER Logo" style="height: 60px; vertical-align: middle; float: right; margin-left: 10px;">
+
 
 **IM-POWER** targets to develop _A numerical Integrated Model for the POWER output of floating offshore wind farms that are fully grid-connected during sea storms_. The objective of IM-POWER is to ultimately:
 
@@ -31,5 +33,10 @@ Due to the transversal competences that this task requires, Dr. Tagliafierro wil
 * **Dr Victor Mendoza**. Hexicon AB – Stokholm, Sweden (External Supervisor)
 
 ## **Scientific and social objectives**
+
+![IM-POWER project overview](assets/images/overview.png)
+
+*Figure 1: it illustrate a floating offshore wind farm diagram: from offshore power generation
+to the grid transmission lines*
 
 
