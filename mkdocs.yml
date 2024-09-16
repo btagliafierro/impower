@@ -67,10 +67,18 @@ theme:
     bib_file: bib.bib
   - awesome-pages:
     collapse_single_pages: true
-copyright: Copyright &copy; 2024 -  Bonaventura Tagliafierro      
+copyright: "&copy; 2024 IM-POWER Project"
+
+# Extra configurations for footer customization
 extra:
   homepage: https://example.com
   version: 0.0
+  generator: true  # Removes the "Made with Material for MkDocs" text
+  footer:
+  - IM-POWER is funded by the European Union's Horizon Europe research and innovation programme under grant agreement No XXXXXX.
+  social:
+  - icon: fontawesome/solid/envelope
+
 markdown_extensions:
     - tables
     - smarty
@@ -100,3 +108,6 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
+
+
+
