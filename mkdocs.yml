@@ -5,16 +5,15 @@ site_author: Bonaventura Tagliafierro
 nav:
   - Main: 
     - "Introduction": index.md
-    - "Origin": formulation/history.md
-  - Theory manual: 
-    - SPH Implementation: 'formulation/fundamentals.md'
-    - "Boundary conditions": 'formulation/boundary.md'
+  - Overview: 
+    - "Methodology": 'pages/methodology.md'
+  - Software:
+    - "Code": 'pages/code.md'
 
 theme: 
   name: material
   language: 'en'
-  font:
-      text: Roboto
+  font: false  # Disable default font loading
   custom_dir: overrides/
   show_sidebar: true
   favicon: assets/images/favicon.ico
@@ -30,8 +29,8 @@ theme:
     # Light mode configuration
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: 'green'         # Base color as green
-      accent: 'light-green'    # Use a lighter green for accents
+      primary: 'blue'         # Base color as green
+      accent: 'light-blue'    # Use a lighter green for accents
       background: 'white'      # Default light background
       toggle:
         icon: material/weather-night
@@ -79,8 +78,8 @@ markdown_extensions:
         toc_depth: 3
         permalink: True
         separator: "_"
-    - mdx_math:
-        enable_dollar_delimiter: True
+    # - mdx_math:
+    #     enable_dollar_delimiter: True
     - fenced_code
     - footnotes
     - pymdownx.arithmatex:
