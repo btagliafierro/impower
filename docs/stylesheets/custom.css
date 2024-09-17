@@ -86,3 +86,37 @@ code, pre {
 .tools .fancy-list li::before {
   color: #ff9800; /* Orange for tools */
 }
+
+/* Updated footer layout */
+.md-footer-meta .md-footer-meta__inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 220px; /* Increased space for the logo */
+}
+
+.md-footer-copyright {
+    flex-grow: 1;
+}
+
+/* Logo styling */
+.md-footer-meta .md-footer-meta__inner::after {
+    content: '';
+    display: block;
+    width: 200px; /* Adjust based on your logo's width */
+    height: 67px; /* Adjust based on your logo's height */
+    background-image: url('../assets/images/eulogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 15px; /* Adjust this value to fine-tune the right margin */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Ensure the social icons don't overlap with the logo */
+.md-footer-social {
+    margin-right: 220px; /* Adjust if needed */
+}

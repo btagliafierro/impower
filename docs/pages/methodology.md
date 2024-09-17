@@ -40,27 +40,29 @@ The objective introduced in [**RO2**](index#ro2) will be achieved by developing 
 <div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #9e9e9e; margin-bottom: 15px;">
 <h3>WP1: Project Management</h3>
 <div style="background-color: #e0e0e0; border-radius: 5px; overflow: hidden; margin-bottom: 10px; position: relative; height: 10px;">
-  <div style="width: 100%; background-color: #4caf50; height: 10px; position: absolute; left: 0;"></div>
-  <div style="width: 4.17%; background-color: #ff0000; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+  <div style="width: 100%; background-color: #FF1493; height: 10px; position: absolute; left: 0;"></div>
+  <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+  <div style="width: 4.17%; border-right: 2px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
 </div>
-<p><strong>Duration:</strong> Months M1-M24 (1 person-month) <span style="color: #ff0000; font-weight: bold;">(Current: M1)</span><br>
+<p><strong>Duration:</strong> Months M1-M24 (1 person-month) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span><br>
 <strong>Description:</strong> Periodic meetings and controlling activities, including project budget and risk management. Kick-off activity is foreseen to adjust the planning accounting for any constraints in time that can affect the execution of the project. This WP will cover the entire duration of the Action.</p>
 </div>
 
 <div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #9e9e9e; margin-bottom: 15px;">
 <h3>WP2: Training and Transfer of Knowledge</h3>
 <div style="background-color: #e0e0e0; border-radius: 5px; overflow: hidden; margin-bottom: 10px; position: relative; height: 10px;">
-  <div style="width: 50%; background-color: #2196F3; height: 10px; position: absolute; left: 0;"></div>
-  <div style="width: 4.17%; background-color: #ff0000; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+  <div style="width: 50%; background-color: #FF4500; height: 10px; position: absolute; left: 0;"></div>
+  <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+  <div style="width: 4.17%; border-right: 2px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
 </div>
-<p><strong>Duration:</strong> Months M1-M12 (4 person-months) <span style="color: #ff0000; font-weight: bold;">(Current: M1)</span><br>
+<p><strong>Duration:</strong> Months M1-M12 (4 person-months) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span><br>
 <strong>Description:</strong> The first part of the training will be held at UU, comprising courses and personalized seminars given by the GoE during the Spring term. Following that, the researcher will be seconded at H-AB, gathering experience on the design of wind turbine components and park layouts in line with practical recommendations from DNV (Det Norske Veritas - Norway).</p>
 </div>
 
 <div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #9e9e9e; margin-bottom: 15px;">
 <h3>WP3: Development and Implementation</h3>
 <div style="background-color: #e0e0e0; border-radius: 5px; overflow: hidden; margin-bottom: 10px; position: relative; height: 10px;">
-  <div style="width: 33.33%; background-color: #ff9800; height: 10px; position: absolute; left: 8.33%;"></div>
+  <div style="width: 33.33%; background-color: #32CD32; height: 10px; position: absolute; left: 8.33%;"></div>
 </div>
 <p><strong>Duration:</strong> Months M3-M10 (6 person-months)<br>
 <strong>Description:</strong> Implementation of new software in an open-source CFD solver to handle wind forces and electromechanical loads on wind turbines. Control and electrical systems, including blade-pitch controllers, generators, and power converters, will be simulated within an integrated numerical framework. The software (Tools 1 and 2) will be validated and embedded within the DualSPHysics program.</p>
@@ -69,7 +71,7 @@ The objective introduced in [**RO2**](index#ro2) will be achieved by developing 
 <div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #9e9e9e; margin-bottom: 15px;">
 <h3>WP4: Design, Simulation, and Data Collection</h3>
 <div style="background-color: #e0e0e0; border-radius: 5px; overflow: hidden; margin-bottom: 10px; position: relative; height: 10px;">
-  <div style="width: 50%; background-color: #673ab7; height: 10px; position: absolute; left: 41.67%;"></div>
+  <div style="width: 50%; background-color: #FFD700; height: 10px; position: absolute; left: 41.67%;"></div>
 </div>
 <p><strong>Duration:</strong> Months M11-M22 (7 person-months)<br>
 <strong>Description:</strong> Characterization of site and environmental conditions (storm parameters for wave and wind definitions), and prediction of the power output of a whole wind farm by simulating individual wind turbines using a single CFD code instance. Different platform configurations for FOWTs will be arranged, and data from simulations will be compiled into a structured, reproducible format.</p>
@@ -78,9 +80,11 @@ The objective introduced in [**RO2**](index#ro2) will be achieved by developing 
 <div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #9e9e9e; margin-bottom: 15px;">
 <h3>WP5: Communication, Dissemination, and Exploitation</h3>
 <div style="background-color: #e0e0e0; border-radius: 5px; overflow: hidden; margin-bottom: 10px; position: relative; height: 10px;">
-  <div style="width: 100%; background-color: #e91e63; height: 10px; position: absolute; left: 0;"></div>
+  <div style="width: 100%; background-color: #8A2BE2; height: 10px; position: absolute; left: 0;"></div>
+  <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+  <div style="width: 4.17%; border-right: 2px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
 </div>
-<p><strong>Duration:</strong> Months M1-M24 (6 person-months)<br>
+<p><strong>Duration:</strong> Months M1-M24 (6 person-months) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span><br>
 <strong>Description:</strong> The release of developed tools in DualSPHysics is part of WP3. This WP also involves compiling farm simulation results into a disaggregated database. Communication efforts include updating websites and social media, while dissemination includes publishing journal papers, preparing conference presentations, and producing YouTube tutorials.</p>
 </div>
 

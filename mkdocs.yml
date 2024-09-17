@@ -74,8 +74,9 @@ extra:
   homepage: https://example.com
   version: 0.0
   generator: true  # Removes the "Made with Material for MkDocs" text
+  logo: assets/images/eulogo.png  # Add this line
   footer:
-  - IM-POWER is funded by the European Union's Horizon Europe research and innovation programme under grant agreement No XXXXXX.
+  - IM-POWER has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No [your project number].
   social:
   - icon: fontawesome/solid/envelope
 
