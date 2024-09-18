@@ -8,6 +8,7 @@ nav:
   - Overview: 'pages/methodology.md'
   - Software:
     - "Code": 'pages/code.md'
+  - Current: 'pages/current.md'
 
 theme: 
   name: material
