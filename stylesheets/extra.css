@@ -1,0 +1,41 @@
+h1 {
+  color: rgb(25, 148, 52);
+  font-size: 150%;
+}
+p {
+  color: rgb(12, 6, 6);
+  font-size: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.footnote-ref {
+  font-size: 1.1em !important;
+  color: #4fd95d !important;
+}
+
+:root {
+  --md-primary-fg-color: #4caf50; /* Custom primary green */
+  --md-primary-bg-color: #e8f5e9; /* Light green background */
+  --md-accent-fg-color: #8bc34a;  /* Custom accent green */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
