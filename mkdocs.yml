@@ -5,7 +5,8 @@ site_author: Bonaventura Tagliafierro
 nav:
   - Main: index.md
   - Background: 'pages/background.md'
-  - Overview: 'pages/methodology.md'
+  - Overview: 'pages/overview.md'
+  - Implementation: 'pages/methodology.md'
   - Software:
     - "Code": 'pages/code.md'
   - "Happening now": 'pages/happening.md'

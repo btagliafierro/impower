@@ -97,16 +97,69 @@ The objective introduced in [**RO2**](../index.md#ro2) will be achieved by devel
 </div>
 
 ## Work Packages
-
-<div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #9e9e9e; margin-bottom: 15px;">
-<h3>WP1: Project Management</h3>
-<div style="background-color: #e0e0e0; border-radius: 5px; overflow: hidden; margin-bottom: 10px; position: relative; height: 10px;">
-  <div style="width: 100%; background-color: #FF1493; height: 10px; position: absolute; left: 0;"></div>
-  <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
-  <div style="width: 4.17%; border-right: 2px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h4 style="margin-top: 0;">Legend</h4>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #FF1493; margin-right: 10px;"></div>
+    <span>WP1: Project Management</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #FF4500; margin-right: 10px;"></div>
+    <span>WP2: Training and Transfer of Knowledge</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #32CD32; margin-right: 10px;"></div>
+    <span>WP3: Development and Implementation</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #FFD700; margin-right: 10px;"></div>
+    <span>WP4: Design, Simulation, and Data Collection</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #8A2BE2; margin-right: 10px;"></div>
+    <span>WP5: Communication, Dissemination, and Exploitation</span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <div style="width: 20px; height: 10px; background-color: #00BFFF; margin-right: 10px;"></div>
+    <span>Current month</span>
+  </div>
 </div>
-<p><strong>Duration:</strong> Months M1-M24 (1 person-month) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span><br>
-<strong>Description:</strong> Periodic meetings and controlling activities, including project budget and risk management. Kick-off activity is foreseen to adjust the planning accounting for any constraints in time that can affect the execution of the project. This WP will cover the entire duration of the Action.</p>
+
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">WP1: Project Management</h3>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <div style="width: 100%; height: 10px; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; position: relative;">
+      <div style="width: 100%; background-color: #FF1493; height: 10px; position: absolute; left: 0;"></div>
+      <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+      <!-- Month dividers -->
+      <div style="width: 4.17%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 8.34%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 12.51%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 16.68%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 20.85%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 25.02%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 29.19%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 33.36%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 37.53%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 41.7%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 45.87%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 50.04%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 54.21%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 58.38%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 62.55%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 66.72%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 70.89%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 75.06%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 79.23%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 83.4%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 87.57%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 91.74%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 95.91%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 100%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+    </div>
+  </div>
+  <p><strong>Duration:</strong> Months M1-M24 (1 person-month) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span></p>
+  <p><strong>Description:</strong> Periodic meetings and controlling activities, including project budget and risk management. Kick-off activity is foreseen to adjust the planning accounting for any constraints in time that can affect the execution of the project. This WP will cover the entire duration of the Action.</p>
 </div>
 
 <div style="background-color: #f9f9f9; padding: 15px; border-left: 5px solid #9e9e9e; margin-bottom: 15px;">
