@@ -8,7 +8,9 @@ nav:
   - Overview: 'pages/methodology.md'
   - Software:
     - "Code": 'pages/code.md'
-  - Current: 'pages/current.md'
+  - "Happening now": 'pages/happening.md'
+  - "Outcome": 'pages/outcome.md'
+  - "Contact": 'pages/contact.md'
 
 theme: 
   name: material
@@ -77,7 +79,7 @@ extra:
   generator: true  # Removes the "Made with Material for MkDocs" text
   logo: assets/images/eulogo.png  # Add this line
   footer:
-  - IM-POWER has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No [your project number].
+  - IM-POWER has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101109440.
   social:
   - icon: fontawesome/solid/envelope
 

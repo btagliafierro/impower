@@ -14,16 +14,15 @@ Offshore wind power consists of generating electricity through wind farms instal
 
 ***Figure 1**: Illustration of a floating offshore wind farm diagram, from offshore power generation to grid transmission lines*
 
+## The Challenge of Storm Events for Floating Offshore Wind Farms
 
+Wind farm energy production soars during stormy events[^1], but due to special control systems embedded in wind turbine generators, designed to protect them from excessive structural stress, the power output of a WT reduces drastically, say, from 5-10 MW (also known as *rated power*) to zero. For FOWTs, high wind speeds trigger really harsh sea states so that wind--wave-control systems coupling effects are essential to understanding the individual power output[^2] ([DNV 2021](#DNV2021 "DNV. (2021). DNV-ST-0119: Floating wind turbine structures.")). This reflects badly on the stability of the total power output, and this would not be conducive to the grid resilience either.
 
-Wind farm energy production soars during stormy events[^1], but due to special control systems embedded in wind turbine generators, designed to protect them from excessive structural stress, the power output of a WT reduces drastically, say, from 5-10 MW (also known as *rated power*) to zero. For FOWTs, high wind speeds trigger really harsh sea states so that wind-wave-control systems coupling effects are essential to understanding the individual power output[^2] ([DNV 2021](#DNV2021 "DNV. (2021). DNV-ST-0119: Floating wind turbine structures.")). This reflects badly on the stability of the total power output, and this would not be conducive to the grid resilience either.
-
-Storms develop above the oceans and move inland to coastal areas, carrying high-speed winds and harsh ocean sea states; the length of the event is quite relevant and so to ensure power stability and security of the electricity supply, the power management system should be able to mobilize/activate storage facilities to make up for the power fluctuations that extreme weather events may trigger. 
+Storms develop above the oceans and move inland to coastal areas, carrying high-speed winds and harsh ocean sea states; the length of the event is quite relevant and so to ensure power stability and security of the electricity supply, the power management system should be able to mobilize/activate storage facilities to make up for the power fluctuations that extreme weather events may trigger.
 
 [^1]: https://inews.co.uk/news/storm-eunice-turbines-generate-almost-50-per-cent-of-uk-electricity-needs-during-gale-force-winds-1470963
 
 [^2]: Excerpted from DNV-ST-0119:23 "Extreme loading of floating support structures will be a larger challenge than extreme loading of bottom-fixed structures"
-
 
 ## References
 - <a id="Lauria2024"></a> **Lauria 2024**: Lauria, A., Loprieno, P., Francone, A., Leone, E., & Tomasicchio, G. R. (2024). Recent advances in understanding the dynamic characterization of floating offshore wind turbines. *Ocean Engineering*, 307, 118189. https://doi.org/10.1016/j.oceaneng.2024.118189
