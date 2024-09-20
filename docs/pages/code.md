@@ -15,28 +15,11 @@ To reduce the LCOE and thus unlock the potential of offshore wind, floating plat
 
 DualSPHysics is an open-source Computational Fluid Dynamics (CFD) code based on the Smoothed Particle Hydrodynamics (SPH) method. It is designed to simulate free-surface flow phenomena with complex geometries and fluid-structure interactions.
 
-### Key Features
 
-1. **High Performance**: Utilizes both CPU and GPU (CUDA) implementations for efficient simulations.
-2. **Multi-phase Flows**: Capable of simulating interactions between different fluids and solids.
-3. **Floating Objects**: Supports the simulation of floating and moving objects within fluid environments.
-4. **Wave Generation**: Includes various wave makers for simulating different wave conditions.
-5. **Coupling**: Can be coupled with other software for multi-physics simulations (e.g., MoorDyn for mooring systems).
-
-### Applications
-
-DualSPHysics is particularly useful for:
-
-- Coastal engineering
-- Naval architecture
-- Hydraulic engineering
-- Analysis of fluid-structure interactions
 
 ## Development
 
-Developed through collaboration between the University of Vigo (Spain) and the University of Manchester (UK), DualSPHysics is continuously evolving with contributions from researchers worldwide.
-
-For more information, visit the [DualSPHysics website](https://dual.sphysics.org/).
+Developed through collaboration between the University of Vigo (Spain) and the University of Manchester (UK), DualSPHysics is continuously evolving with contributions from researchers worldwide. For more information, visit the [DualSPHysics website](https://dual.sphysics.org/).
 
 
 ## References
