@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/info/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/info/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/figures/boundary/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/figures/boundary/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/figures/fundamentals/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/figures/fundamentals/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/figures/history/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/figures/history/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/pages/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/pages/background/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/pages/background/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/pages/code/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/pages/code/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/pages/contact/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/pages/contact/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/pages/happening/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/pages/happening/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/pages/methodology/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/pages/implementation/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
     <url>
-         <loc>https://example.com/pages/outcome/</loc>
-         <lastmod>2024-09-20</lastmod>
+         <loc>https://btagliafierro.github.io/im-power/pages/outcome/</loc>
+         <lastmod>2024-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://btagliafierro.github.io/im-power/pages/overview/</loc>
+         <lastmod>2024-09-23</lastmod>
     </url>
 </urlset>

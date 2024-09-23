@@ -1,0 +1,1092 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Bonaventura Tagliafierro">
+      
+      
+        <link rel="canonical" href="https://btagliafierro.github.io/im-power/pages/implementation/">
+      
+      
+        <link rel="prev" href="../overview/">
+      
+      
+        <link rel="next" href="../code/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>IM-POWER website - IM-POWER</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 12a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M6 13h8l-3.5 3.5 1.42 1.42L17.84 12l-5.92-5.92L10.5 7.5 14 11H6z"/></svg>');}</style>
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../meta">
+    
+      <link rel="stylesheet" href="../../admonition">
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#work_packages" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://example.com" title="IM-POWER" class="md-header__button md-logo" aria-label="IM-POWER" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IM-POWER
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IM-POWER website
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link">
+        
+  
+    
+  
+  Main
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../background/" class="md-tabs__link">
+        
+  
+    
+  
+  Background
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../overview/" class="md-tabs__link">
+        
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Implementation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../code/" class="md-tabs__link">
+          
+  
+  Software
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../outcome/" class="md-tabs__link">
+        
+  
+    
+  
+  Outcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contact/" class="md-tabs__link">
+        
+  
+    
+  
+  Contact
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://example.com" title="IM-POWER" class="md-nav__button md-logo" aria-label="IM-POWER" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.png" alt="logo">
+
+    </a>
+    IM-POWER
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../background/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Background
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Implementation
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Implementation
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#work_packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Work Packages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../outcome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#work_packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Work Packages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Implementation</h1>
+
+<p>To capture the overall performance of floating wind farms that comprise FOWTs, a high-fidelity tool should run for a duration of 4 hours, which corresponds to a reasonable storm duration. Due to the large scale of wind farms (on the order of kilometers) and the high level of detail required to simulate wind and wave interactions with the turbine (on the order of tens of centimeters), a multi-tier modeling procedure is necessary to reduce the overall complexity, as postulated in <a href="../overview/"><strong>RO1</strong></a>. The straightforward simulation of whole wind farms is currently prohibitive due to computational costs and hardware requirements, as highlighted in recent reviews of CFD applications for FOWTs (<a href="#ZHANG_2024_reviewCfdFowt">Zhang et al. 2024</a>). The farm total power output can be anticipated by breaking down the simulation of a farm to the wind-turbine level, and then reconstructing it through integration. The outcome consistency is ensured by coherent environmental loads (wind profiles and waves) generated by time-integrated numerical models for wave and wind propagation. The following Blocks of Work (<strong>BoW</strong>) present a preliminary description of the activities to be performed:</p>
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <h3 style="color: #000000; border-bottom: 2px solid #3498db; padding-bottom: 10px;">Blocks of Work (BoWs)</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 15px;">
+      <h4 style="color: #000000; margin-bottom: 5px;">BoW 1: Feature Design and Implementation</h4>
+      <p style="color: #000000;">The required functionalities to simulate FOWTs with CFD codes are identified. A wave tank that reproduces extreme ocean waves interacting with the platform is configured. For these activities, the Researcher will be supported by the Supervisor and the Gop (detailed in WP3 and WP4).</p>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <h4 style="color: #000000; margin-bottom: 5px;">BoW 2: Model Input Parameter Identification</h4>
+      <p style="color: #000000;">A testing area is identified for the characterization of the storm pattern; definition of the local wave input by propagating real sea states for the entirety of the farm stretch of sea; definition of the park arrangement, comprising anchoring systems and power connectivity. Note that these activities require the support of Hexicon (detailed in WP4).</p>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <h4 style="color: #000000; margin-bottom: 5px;">BoW 3: Final Results Reconstruction</h4>
+      <p style="color: #000000;">The power output of the wind farm is computed by integrating the response of all the wind turbines on each farm. The Researcher, the Supervisor, the Gop, and Hexicon will be involved in data interpretation and restitution (description in WP4).</p>
+    </li>
+  </ul>
+</div>
+
+<div class="methodology" style="background-color: #f0f8ff; padding: 10px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<h2>Modeling Approach</h2>
+<hr style="border: 0; height: 2px; background-color: #3498db; margin-top: 10px; margin-bottom: 20px;">
+<a id="figure-1"></a>
+<figure>
+  <img src="../../figures/model_strategy.png" alt="IM-POWER project methodology" style="width: 100%; max-width: 800px;">
+  <figcaption><em>Figure 1: IM-POWER project methodology - Model strategy overview</em></figcaption>
+</figure>
+
+<a href="#figure-1">Figure 1</a> illustrates the multi-tier modeling approach for simulating floating offshore wind farms (FOWTs) during storm conditions. The methodology comprises several key components:
+  <div class="component" style="margin-bottom: 15px;">
+    <h4 style="color: #2980b9;">1. Environmental Modeling</h4>
+    <ul style="list-style-type: none; padding-left: 20px;">
+      <li>• Wave propagation using SWASH software for the entire farm area</li>
+      <li>• Wind propagation using CFD based tools for an overlapping atmospheric domain (However, as a first approach, semi-analytical models will be used)</li>
+    </ul>
+  </div>
+
+  <div class="component" style="margin-bottom: 15px;">
+    <h4 style="color: #2980b9;">2. Farm Layout (representation of different FOWT configurations)</h4>
+    <ul style="list-style-type: none; padding-left: 20px;">
+      <li>• Tension-leg platform</li>
+      <li>• Semi-submersible platform</li>
+      <li>• Semi-submersible platform with double-wind turbine design</li>
+    </ul>
+  </div>
+
+  <div class="component" style="margin-bottom: 15px;">
+    <h4 style="color: #2980b9;">3. Individual Turbine Simulation</h4>
+    <ul style="list-style-type: none; padding-left: 20px;">
+      <li>• CFD modeling of wave-platform interaction using DualSPHysics</li>
+      <li>• Implementation of wind forces and electromechanical loads</li>
+      <li>• Integration of control systems (blade-pitch controller, generator, power-converter)</li>
+    </ul>
+  </div>
+
+  <div class="component" style="margin-bottom: 15px;">
+    <h4 style="color: #2980b9;">4. Farm-level Integration</h4>
+    <ul style="list-style-type: none; padding-left: 20px;">
+      <li>• Computation of total power output by integrating individual turbine simulations</li>
+      <li>• Use of high-performance computing resources (NAISS system)</li>
+    </ul>
+  </div>
+
+  <div class="component" style="margin-bottom: 15px;">
+    <h4 style="color: #2980b9;">5. Data Collection and Analysis</h4>
+    <ul style="list-style-type: none; padding-left: 20px;">
+      <li>• Compilation of simulation outputs into a searchable database</li>
+      <li>• Inclusion of source data for reproducibility</li>
+    </ul>
+  </div>
+</div>
+
+<p>The objective introduced in <a href="../overview/"><strong>RO2</strong></a> will be achieved by developing new software within the open-source DualSPHysics code (<a href="#Dominguez2022">Domínguez et al. 2022</a>). DualSPHysics is a CFD solver based on the Smoothed Particle Hydrodynamics method (SPH) (<a href="#Violeau_2016">Violeau and Rogers 2016</a>) for simulating fluid mechanics and is particularly suitable for simulating free-surface and violent flows. New functionalities to simulate wind-blade interaction and power control systems will be embedded using a multiphysics set of functions (known as library), called Project Chrono (<a href="#Chrono_2016">Tasora et al. 2016</a>), used as an interface. Specifically, the following tools will be developed to comply with <strong>BoW 1</strong>:</p>
+<div style="background-color: #FFF3E0; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; border-left: 5px solid #FFB74D;">
+  <h3 style="margin-top: 0; color: #000000;">Tools to be Developed</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 10px; color: #000000;">
+      <strong>Tool 1:</strong> An aerodynamic solver for wind-blade interaction (in WP3)
+    </li>
+    <li style="margin-bottom: 10px; color: #000000;">
+      <strong>Tool 2:</strong> Two open-loop control functions for simulating blade pitch adjustment and generator absorbed power (in WP3)
+    </li>
+  </ul>
+</div>
+
+<h2 id="work_packages">Work Packages<a class="headerlink" href="#work_packages" title="Permanent link">&para;</a></h2>
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h4 style="margin-top: 0;">Legend</h4>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #FF1493; margin-right: 10px;"></div>
+    <span>WP1: Project Management</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #FF4500; margin-right: 10px;"></div>
+    <span>WP2: Training and Transfer of Knowledge</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #32CD32; margin-right: 10px;"></div>
+    <span>WP3: Development and Implementation</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #FFD700; margin-right: 10px;"></div>
+    <span>WP4: Design, Simulation, and Data Collection</span>
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 5px;">
+    <div style="width: 20px; height: 10px; background-color: #8A2BE2; margin-right: 10px;"></div>
+    <span>WP5: Communication, Dissemination, and Exploitation</span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <div style="width: 20px; height: 10px; background-color: #00BFFF; margin-right: 10px;"></div>
+    <span>Current month</span>
+  </div>
+</div>
+
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">WP1: Project Management</h3>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <div style="width: 100%; height: 10px; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; position: relative;">
+      <div style="width: 100%; background-color: #FF1493; height: 10px; position: absolute; left: 0;"></div>
+      <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+      <!-- Month dividers -->
+      <div style="width: 4.17%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 8.34%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 12.51%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 16.68%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 20.85%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 25.02%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 29.19%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 33.36%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 37.53%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 41.7%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 45.87%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 50.04%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 54.21%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 58.38%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 62.55%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 66.72%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 70.89%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 75.06%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 79.23%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 83.4%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 87.57%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 91.74%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 95.91%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 100%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+    </div>
+  </div>
+  <p><strong>Duration:</strong> Months M1-M24 (1 person-month) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span></p>
+  <p><strong>Description:</strong> Periodic meetings and controlling activities, including project budget and risk management. Kick-off activity is foreseen to adjust the planning accounting for any constraints in time that can affect the execution of the project. This WP will cover the entire duration of the Action.</p>
+</div>
+
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">WP2: Training and Transfer of Knowledge</h3>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <div style="width: 100%; height: 10px; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; position: relative;">
+      <div style="width: 50%; background-color: #FF4500; height: 10px; position: absolute; left: 0;"></div>
+      <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+      <!-- Month dividers -->
+      <div style="width: 4.17%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 8.34%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 12.51%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 16.68%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 20.85%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 25.02%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 29.19%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 33.36%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 37.53%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 41.7%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 45.87%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 50.04%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 54.21%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 58.38%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 62.55%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 66.72%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 70.89%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 75.06%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 79.23%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 83.4%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 87.57%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 91.74%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 95.91%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 100%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+    </div>
+  </div>
+  <p><strong>Duration:</strong> Months M1-M12 (4 person-months) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span></p>
+  <p><strong>Description:</strong> The first part of the training will be held at UU, comprising courses and personalized seminars given by the GoE during the Spring term. Following that, the researcher will be seconded at H-AB, gathering experience on the design of wind turbine components and park layouts in line with practical recommendations from DNV (Det Norske Veritas - Norway).</p>
+</div>
+
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">WP3: Development and Implementation</h3>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <div style="width: 100%; height: 10px; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; position: relative;">
+      <div style="width: 33.33%; background-color: #32CD32; height: 10px; position: absolute; left: 8.33%;"></div>
+      <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+      <!-- Month dividers -->
+      <div style="width: 4.17%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 8.34%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 12.51%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 16.68%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 20.85%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 25.02%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 29.19%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 33.36%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 37.53%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 41.7%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 45.87%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 50.04%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 54.21%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 58.38%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 62.55%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 66.72%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 70.89%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 75.06%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 79.23%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 83.4%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 87.57%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 91.74%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 95.91%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 100%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+    </div>
+  </div>
+  <p><strong>Duration:</strong> Months M3-M10 (6 person-months) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span></p>
+  <p><strong>Description:</strong> Implementation of new software in an open-source CFD solver to handle wind forces and electromechanical loads on wind turbines. Control and electrical systems, including blade-pitch controllers, generators, and power converters, will be simulated within an integrated numerical framework. The software (Tools 1 and 2) will be validated and embedded within the DualSPHysics program.</p>
+</div>
+
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">WP4: Design, Simulation, and Data Collection</h3>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <div style="width: 100%; height: 10px; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; position: relative;">
+      <div style="width: 50%; background-color: #FFD700; height: 10px; position: absolute; left: 41.67%;"></div>
+      <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+      <!-- Month dividers -->
+      <div style="width: 4.17%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 8.34%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 12.51%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 16.68%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 20.85%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 25.02%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 29.19%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 33.36%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 37.53%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 41.7%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 45.87%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 50.04%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 54.21%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 58.38%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 62.55%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 66.72%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 70.89%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 75.06%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 79.23%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 83.4%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 87.57%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 91.74%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 95.91%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 100%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+    </div>
+  </div>
+  <p><strong>Duration:</strong> Months M11-M22 (7 person-months) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span></p>
+  <p><strong>Description:</strong> Characterization of site and environmental conditions (storm parameters for wave and wind definitions), and prediction of the power output of a whole wind farm by simulating individual wind turbines using a single CFD code instance. Different platform configurations for FOWTs will be arranged, and data from simulations will be compiled into a structured, reproducible format.</p>
+</div>
+
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+  <h3 style="margin-top: 0;">WP5: Communication, Dissemination, and Exploitation</h3>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+    <div style="width: 100%; height: 10px; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; position: relative;">
+      <div style="width: 4.17%; background-color: #8A2BE2; height: 10px; position: absolute; left: 0;"></div>
+      <div style="width: 4.17%; background-color: #8A2BE2; height: 10px; position: absolute; left: 8.34%;"></div>
+      <div style="width: 8.34%; background-color: #8A2BE2; height: 10px; position: absolute; left: 16.68%;"></div>
+      <div style="width: 4.17%; background-color: #8A2BE2; height: 10px; position: absolute; left: 37.53%;"></div>
+      <div style="width: 12.51%; background-color: #8A2BE2; height: 10px; position: absolute; left: 41.7%;"></div>
+      <div style="width: 4.17%; background-color: #8A2BE2; height: 10px; position: absolute; left: 70.89%;"></div>
+      <div style="width: 16.68%; background-color: #8A2BE2; height: 10px; position: absolute; left: 83.32%;"></div>
+      <div style="width: 4.17%; background-color: #00BFFF; height: 10px; position: absolute; left: 0; z-index: 1;"></div>
+      <!-- Month dividers -->
+      <div style="width: 4.17%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 8.34%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 12.51%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 16.68%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 20.85%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 25.02%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 29.19%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 33.36%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 37.53%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 41.7%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 45.87%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 50.04%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 54.21%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 58.38%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 62.55%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 66.72%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 70.89%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 75.06%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 79.23%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 83.4%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 87.57%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 91.74%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 95.91%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+      <div style="width: 100%; border-right: 1px solid white; height: 10px; position: absolute; left: 0; z-index: 2;"></div>
+    </div>
+  </div>
+  <p><strong>Duration:</strong> Months M1-M24 (6 person-months) <span style="color: #00BFFF; font-weight: bold;">(Current: M1)</span></p>
+  <p><strong>Description:</strong> The release of developed tools in DualSPHysics is part of WP3. This WP also involves compiling farm simulation results into a disaggregated database. Communication efforts include updating websites and social media, while dissemination includes publishing journal papers, preparing conference presentations, and producing YouTube tutorials.</p>
+</div>
+
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
+
+<h2>Open Science Practices and Research Data Management</h2>
+
+<p>We are committed to open science practices throughout the project. All software developments will be open-source, and research findings will be published in open-access journals to ensure wide dissemination and accessibility of our results.</p>
+
+<p>Stay tuned for regular updates on our project progress and outcomes!</p>
+
+<h3>Software and Licensing</h3>
+
+<p>The software considered for engineering the new features is completely open-source, and all novel implementations will be released as such, including supporting documentation. Our tools that pertain the use of DualSPHysics will be redistributed under the terms of the GNU Lesser General Public License (LGPL), which is most favorable for attracting industry usage.</p>
+
+<h3>Research Publication</h3>
+
+<p>Research papers will target peer-reviewed forums, endorsing Open Access with <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International). The publishing fees will be covered by Uppsala University (UU), which has publishing agreements with all targeted journals.</p>
+
+<h3>Data Storage and Sharing</h3>
+
+<ul>
+  <li><strong>DiVA</strong>: The <a href="https://www.diva-portal.org/smash/search.jsf?dswid=-9726">Academic Archive Online</a> system, developed and maintained by UU Library, will be used to securely store long-term data and share it using a standard mechanism (DOI).</li>
+  <li><strong>Data Distribution</strong>: Data will be distributed under the Creative Commons (CC) license.</li>
+  <li><strong>Accessibility</strong>: Data repositories concerning dissemination activities will be made accessible during review processes, improving third-party accessibility to procedures and data.</li>
+  <li><strong>Confidentiality</strong>: Data generated with items of direct interest to H-AB will not be made available due to a high-level non-disclosure agreement (NDA).</li>
+</ul>
+
+<h3>Data Management</h3>
+
+<p>A data management system will be arranged to provide the primary platform for data delivery to other researchers and the public, fulfilling EU data requirements in accordance with <a href="https://www.go-fair.org/fair-principles/">FAIR principles</a> (Findable, Accessible, Interoperable, and Reusable). A Data Management Plan (DMP) will be created using the digital tool <a href="https://dmponline.uu.se/">DMPonline</a> provided by the UU data office.</p>
+
+</div>
+
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a id="ZHANG_2024_reviewCfdFowt"></a> <strong>Zhang et al. (2024)</strong>: Zhang, W., Calderon-Sanchez, J., Duque, D., &amp; Souto-Iglesias, A. (2024). Computational Fluid Dynamics (CFD) applications in Floating Offshore Wind Turbine (FOWT) dynamics: A review. <em>Applied Ocean Research</em>, 150, 104075. https://doi.org/10.1016/j.apor.2024.104075</li>
+<li><a id="Monaghan1992"></a> <strong>Monaghan (1992)</strong>: Monaghan, J. J. (1992). Smoothed Particle Hydrodynamics. <em>Annual Review of Astronomy and Astrophysics</em>, 30(1), 543-574. https://doi.org/10.1146/annurev.aa.30.090192.002551</li>
+<li>
+<p><a id="Dominguez2022"></a> <strong>Domínguez et al. (2022)</strong>: Domínguez, J.M., Fourtakas, G., Altomare, C., Canelas, R., Tafuni, A., García Feal, O., Martínez-Estévez, I., Mokos, A., Vacondio, R., Crespo, A., Rogers, B., Stansby, P.K., &amp; Gómez-Gesteira, M. (2022). DualSPHysics: from fluid dynamics to multiphysics problems. *Computational Particle Mechanics. https://doi.org/10.1007/s40571-021-00404-2</p>
+</li>
+<li>
+<p><a id="Violeau_2016"></a> <strong>Violeau and Rogers (2016)</strong>: Violeau, D., &amp; Rogers, B.D. (2016). Smoothed particle hydrodynamics (SPH) for free-surface flows: past, present and future. <em>Journal of Hydraulic Research</em>, 54(1), 1-26. https://doi.org/10.1080/00221686.2015.1119209</p>
+</li>
+<li>
+<p><a id="Chrono_2016"></a> <strong>Tasora et al. (2016)</strong>: Tasora, A., Serban, R., Mazhar, H., Pazouki, A., Melanz, D., Fleischmann, J., Taylor, M., Sugiyama, H., &amp; Negrut, D. (2016). Chrono: An open source multi-physics dynamics engine. In T. Kozubek (Ed.), <em>Springer</em>, (pp. 19-49).</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+  <footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          
+            <div class="md-footer-copyright__highlight">
+              &copy; 2024 IM-POWER Project
+            </div>
+          
+          
+            
+              <div class="md-footer-copyright__highlight">
+                IM-POWER has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101109440.
+              </div>
+            
+          
+        </div>
+        
+          <div class="md-footer-copyright">
+            Made with
+            <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+              Material for MkDocs
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tabs", "navigation.expand", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "navigation.footer"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
