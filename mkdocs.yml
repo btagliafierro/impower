@@ -1,15 +1,15 @@
 site_name: IM-POWER
-site_url: https://example.com/
+site_url: https://btagliafierro.github.io/im-power/pages/
 site_author: Bonaventura Tagliafierro
 
 nav:
-  - Main: index.md
+  - Main: 'pages/index.md'
   - Background: 'pages/background.md'
   - Overview: 'pages/overview.md'
-  - Implementation: 'pages/methodology.md'
+  - Implementation: 'pages/implementation.md'
   - Software:
     - "Code": 'pages/code.md'
-  - "Happening now": 'pages/happening.md'
+  #- "Happening now": 'pages/happening.md'
   - "Outcome": 'pages/outcome.md'
   - "Contact": 'pages/contact.md'
 
@@ -39,14 +39,7 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
     # Dark mode configuration
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate            # Slate dark mode for better contrast
-      primary: 'blue'         # Still use green in dark mode
-      accent: 'light-blue'    # Use a lighter green for accent in dark mode
-      background: 'gray'      # Dark mode with black background
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+
 
 
 
@@ -75,7 +68,7 @@ copyright: "&copy; 2024 IM-POWER Project"
 
 # Extra configurations for footer customization
 extra:
-  homepage: https://example.com
+  homepage: https://btagliafierro.github.io/im-power/
   version: 0.0
   generator: true  # Removes the "Made with Material for MkDocs" text
   logo: assets/images/eulogo.png  # Add this line

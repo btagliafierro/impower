@@ -12,28 +12,46 @@ some_url: TBD
 
 ## Main Outcomes
 
-The IM-POWER project aims to develop a numerical Integrated Model for the POWER output of floating offshore wind farms that are fully grid-connected during sea storms. The main expected outcomes of the project include:
+The **IM-POWER** project aims to develop a numerical Integrated Model for the POWER output of floating offshore wind farms that are fully grid-connected during sea storms. The main expected outcomes of the project include:
 
-1. A cutting-edge CFD platform as the first open-source software able to precisely simulate Floating Offshore Wind Turbines (FOWTs) with high accuracy and robustness.
-2. Assessment of floating wind farm power output under storm conditions, which has never been attempted before.
-3. Critical information for the optimization, design, and update of power grids and short-term storage facilities.
-4. Guidelines for the efficient allocation of offshore wind farms.
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <div style="margin-bottom: 10px;">
+    <strong>•</strong> <span style="font-weight: bold;">Assessment of floating wind farm power output under storm conditions</span>: (never been attempted before).
+  </div>
 
+  <div style="margin-bottom: 10px;">
+    <strong>•</strong> <span style="font-weight: bold;">Critical information for the optimization, design, and update of power grids</span>: (includingshort-term storage facilities).
+  </div>
+
+  <div>
+    <strong>•</strong> <span style="font-weight: bold;">Guidelines for the efficient allocation of offshore wind farms</span>
+  </div>
+</div>
 ## Current Project Status
 
 As of Month 1 (M1), the project is in its initial stages. Here's an overview of the current status:
 
-### Work Packages Progress
+## Work Packages Progress
 
 ### Ongoing Activities
 
-1. **Project Management (WP1)**: The kick-off activities are underway to adjust the planning and account for any time constraints that may affect the project execution.
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <div style="margin-bottom: 15px;">
+    <strong>• Project Management (WP1)</strong>: The kick-off activities are underway to adjust the planning and account for any time constraints that may affect the project execution.
+  </div>
 
-2. **Training and Transfer of Knowledge (WP2)**: The initial training phase at Uppsala University has begun, including courses and personalized seminars given by the Group of Experts (GoE).
+  <div style="margin-bottom: 15px;">
+    <strong>• Training and Transfer of Knowledge (WP2)</strong>: The initial training phase at Uppsala University has begun, including courses and personalized seminars given by the Group of Experts (GoE).
+  </div>
 
-3. **Development and Implementation (WP3)**: Preparation for the implementation of new software in the open-source CFD solver is in progress.
+  <div style="margin-bottom: 15px;">
+    <strong>• Development and Implementation (WP3)</strong>: Preparation for the implementation of new software in the open-source CFD solver is in progress.
+  </div>
 
-4. **Communication, Dissemination, and Exploitation (WP5)**: Initial communication efforts have started, including the setup of the project website and social media channels.
+  <div>
+    <strong>• Communication, Dissemination, and Exploitation (WP5)</strong>: Initial communication efforts have started, including the setup of the project website and social media channels.
+  </div>
+</div>
 
 ## Expected Scientific Impact
 

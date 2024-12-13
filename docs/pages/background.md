@@ -10,9 +10,12 @@ some_url: TBD
 
 Offshore wind power consists of generating electricity through wind farms installed at sea. In relatively shallow waters (up to 50 meters depth), fixed-foundation wind turbines are employed, essentially preserving the structural features of onshore twins. To increase the installation depths, **floating structures** have been considered. Such platforms are stabilized by moorings and anchors that flexibly connect them to fixed points on the seabed, thus safely providing support in up to 300 meters of water depth ([Lauria et al. 2024](#Lauria2024 "Lauria et al. 2024")). Floating wind farms comprise wind turbines that are placed on platforms, and connected to an offshore substation through submarine cables to transmit the generated electricity ([Figure 1](#figure-1)). Such complexity reflects into its average total cost per megawatt-hour over its lifetime (known as Levelised Cost of Energy -- LCOE), which is still high, even if compared with fixed-foundation offshore wind . This high cost is what has hampered its use at large scales so far. Currently, there is 113 MW of floating wind in operation in Europe, spread across a few pilot plants. This is expected to rise to over 300 MW within the next two years (2024), including the 88 MW Hywind Tampen in Norway, aimed to supply power to offshore oil rigs. 
 
-![IM-POWER project overview](../figures/overview.png)
-
-***Figure 1**: Illustration of a floating offshore wind farm diagram, from offshore power generation to grid transmission lines*
+## Overview of Floating Wind Farms
+<a id="figure-1"></a>
+<figure>
+  <img src="../../figures/overview.png" alt="IM-POWER project overview">
+  <figcaption>Figure 1: IM-POWER project overview</figcaption>
+</figure>
 
 ## The Challenge of Storm Events for Floating Offshore Wind Farms
 

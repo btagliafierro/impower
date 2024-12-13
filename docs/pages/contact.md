@@ -15,10 +15,10 @@ We welcome your inquiries and feedback regarding the IM-POWER project. Please fi
 ## Project Coordinators
 
 - **Dr. Bonaventura Tagliafierro**
-  - Email: bonaventura.tagliafierro@angstrom.uu.se
+  - Email: [bonaventura tagliafierro (at) angstrom.uu.se](mailto:bonaventura.tagliafierro@angstrom.uu.se)
 
 - **Prof. Malin Göteman**
-  - Email: malin.goteman@angstrom.uu.se
+  - Email: [malin göteman (at) uu.se](mailto:malin.göteman@uu.se)
 
 ## Connect with Us
 

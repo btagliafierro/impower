@@ -4,7 +4,7 @@
 
 To achieve the final goal of the project, two research objectives (**RO1** and **RO2**) will be met:
 
-<div class="objectives" style="background-color: #e3f2fd; padding: 15px; border-left: 5px solid #2196f3; margin-bottom: 15px;">
+<div class="objectives" style="background-color: #e3f2fd; padding: 10px; border-left: 5px solid #2196f3; margin-bottom: 15px;">
 <strong>Objectives:</strong> 
 <ul class="fancy-list">
   <li id="ro1"><strong>RO1</strong> Define and validate model-chain free software to address the spatial multi-scale nature of wave/wind generation and propagation for offshore wind farms under storm scenarios;</li>
@@ -39,8 +39,8 @@ The objectives of this Action are complex, and interdisciplinary challenges will
 * **Dr Victor Mendoza**. Hexicon AB – Stockholm, Sweden (External Supervisor)
 
 <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px; background-color: #e6f3ff; padding: 20px; border-radius: 10px;">
-    <img src="assets/images/uppsala_logo.png" alt="Uppsala University Logo" style="height: 100px;">
-    <img src="assets/images/hexicon_logo.svg" alt="Hexicon AB Logo" style="height: 100px;">
+    <img src="../../assets/images/uppsala_logo.png" alt="Uppsala University Logo" style="height: 100px;">
+    <img src="../../assets/images/hexicon_logo.svg" alt="Hexicon AB Logo" style="height: 100px;">
 </div>
 
 The Department of Electrical Engineering at Uppsala University (Sweden) is a leading research environment for future electric grid and renewable energy systems, and has a second-to-none collaboration with relevant industry leaders, international research centres, and regulatory authorities. Hexicon parnership will permit to investigate the issues considering a great level of detail owing to the company's experience in offshore wind energy, platform design, and control systems.
