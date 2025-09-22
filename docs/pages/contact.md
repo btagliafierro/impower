@@ -4,7 +4,7 @@ summary: Here you can find the contact information of the IM-POWER team
 authors: 
     - Bonaventura Tagliafierro
     - Malin Göteman
-date: 2024-09-11
+date: 2025-09-22
 some_url: https://im-power.github.io/contact
 ---
 

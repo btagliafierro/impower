@@ -1,5 +1,5 @@
 site_name: IM-POWER
-site_url: https://btagliafierro.github.io/im-power/pages/
+site_url: https://btagliafierro.github.io/im-power/
 site_author: Bonaventura Tagliafierro
 
 nav:
@@ -10,7 +10,9 @@ nav:
   - Software:
     - "Code": 'pages/code.md'
   #- "Happening now": 'pages/happening.md'
-  - "Outcome": 'pages/outcome.md'
+  - Outcome:
+    - "Overview": 'pages/outcome.md'
+    - "Conferences & Papers": 'pages/outcome_conferences.md'
   - "Contact": 'pages/contact.md'
 
 theme: 
@@ -64,11 +66,11 @@ theme:
     bib_file: bib.bib
   - awesome-pages:
     collapse_single_pages: true
-copyright: "&copy; 2024 IM-POWER Project"
+copyright: "&copy; 2025 IM-POWER Project"
 
 # Extra configurations for footer customization
 extra:
-  homepage: https://btagliafierro.github.io/im-power/
+  homepage: https://btagliafierro.github.io/im-power/pages/
   version: 0.0
   generator: true  # Removes the "Made with Material for MkDocs" text
   logo: assets/images/eulogo.png  # Add this line

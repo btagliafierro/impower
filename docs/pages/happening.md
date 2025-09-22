@@ -4,6 +4,6 @@ summary: This page describes the methodology of the project
 authors: 
     - Bonaventura Tagliafierro
     - Malin Göteman
-date: 2024-09-11
+date: 2025-09-22
 some_url: TBD
 ---

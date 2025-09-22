@@ -4,7 +4,7 @@ summary: This page describes the methodology of the project
 authors: 
     - Bonaventura Tagliafierro
     - Malin Göteman
-date: 2024-09-11
+date: 2025-09-22
 some_url: TBD
 ---
 To reduce the LCOE and thus unlock the potential of offshore wind, floating platforms under high-impact low-probability (HILP) events need to be studied to allow more efficient and accurate design procedures. One of the investigative tools that can reliably inform on the structural response of FOWTs is **numerical modeling** ([Otter et al. 2022](#Otter2022 "Otter et al. (2022). Oceanographic processes and marine renewable energy.")). A large body of research suggests that high-fidelity computational techniques, usually known as Computational Fluid Dynamics (CFD) methods, are required to accurately simulate the fluid-platform interaction under highly-energetic waves, thereby obtaining reliable model results ([Robertson et al. 2017](#Robertson2017 "Robertson et al. (2017). Numerical modeling of floating offshore wind turbines."), [Draycott et al. 2019](#Draycott2019 "Draycott et al. (2019). Experimental assessment of the fluid-structure interaction of offshore floating wind turbines."), [Zhang et al. (2024)](#ZHANG_2024_reviewCfdFowt "Zhang et al. 2024. Review of CFD applications in offshore wind engineering.")). However, the current software fleet does not provide a unified solution for adaptation to the special features of FOWTs, and while robust and accurate, simulating a complete wind farm with CFD-based computer programs is computationally cumbersome due to hardware limitations.
