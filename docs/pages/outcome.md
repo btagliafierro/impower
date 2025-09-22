@@ -10,55 +10,45 @@ some_url: TBD
 
 # Project Outcomes and Impact
 
-## Main Outcomes
-
-The **IM-POWER** project aims to develop a numerical Integrated Model for the POWER output of floating offshore wind farms that are fully grid-connected during sea storms. The main expected outcomes of the project include:
-
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
-  <div style="margin-bottom: 10px;">
-    <strong>•</strong> <span style="font-weight: bold;">Assessment of floating wind farm power output under storm conditions</span>: (never been attempted before).
-  </div>
-
-  <div style="margin-bottom: 10px;">
-    <strong>•</strong> <span style="font-weight: bold;">Critical information for the optimization, design, and update of power grids</span>: (includingshort-term storage facilities).
-  </div>
-
-  <div>
-    <strong>•</strong> <span style="font-weight: bold;">Guidelines for the efficient allocation of offshore wind farms</span>
-  </div>
-</div>
 ## Current Project Status
 
-As of Month 1 (M1), the project is in its initial stages. Here's an overview of the current status:
+As of Month 14 (M14), the project has progressed as follows:
 
-## Work Packages Progress
+- WP1 Project Management: Ongoing across the full duration; regular reviews and risk tracking in place.
+- WP2 Training and Transfer of Knowledge: Core activities completed (M1–M12); ongoing knowledge sharing as needed.
+- WP3 Development and Implementation: Core development completed (M3–M10); tools integrated in DualSPHysics and used in downstream work.
+- WP4 Design, Simulation, and Data Collection: Pending
+- WP5 Communication, Dissemination, and Exploitation: Ogoing (M1–M24); Targeting DeepWind 2026 and OMAE 2026
 
-### Ongoing Activities
+## Conferences & Papers
 
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
-  <div style="margin-bottom: 15px;">
-    <strong>• Project Management (WP1)</strong>: The kick-off activities are underway to adjust the planning and account for any time constraints that may affect the project execution.
-  </div>
+### Journal Articles
 
-  <div style="margin-bottom: 15px;">
-    <strong>• Training and Transfer of Knowledge (WP2)</strong>: The initial training phase at Uppsala University has begun, including courses and personalized seminars given by the Group of Experts (GoE).
-  </div>
+- To be added.
 
-  <div style="margin-bottom: 15px;">
-    <strong>• Development and Implementation (WP3)</strong>: Preparation for the implementation of new software in the open-source CFD solver is in progress.
-  </div>
+### Conference Papers
 
-  <div>
-    <strong>• Communication, Dissemination, and Exploitation (WP5)</strong>: Initial communication efforts have started, including the setup of the project website and social media channels.
-  </div>
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <p style="margin: 0 0 0 1.5em; text-indent: -1.5em; color: #000000;">
+    Tagliafierro, B., Martínez-Estévez, I., Capasso, S., Domínguez, J. M., Karimirad, M., Viccione, G., Gómez-Gesteira, M., Crespo, A. J. C., &amp; Göteman, M. (2025, June). Wave power extraction from semi-submersible hybrid platforms with multi-physics and high-fidelity simulations powered by SPH. In <em>Proceedings of the ASME 2025 44th International Conference on Ocean, Offshore &amp; Arctic Engineering (OMAE 2025)</em>, Vancouver, Canada. American Society of Mechanical Engineers.
+  </p>
 </div>
 
-## Expected Scientific Impact
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <p style="margin: 0 0 0 1.5em; text-indent: -1.5em; color: #000000;">
+    Dupuis, A., Tagliafierro, B., Capasso, S., Göteman, M., &amp; Engström, J. (2025, September). Towards efficient learning of neural fluid force estimators from CFD-sampled regular waves. In <em>Proceedings of the 16th European Wave and Tidal Energy Conference (EWTEC)</em>, Funchal, Portugal.
+  </p>
+</div>
 
-We anticipate significant scientific contributions in the following areas:
+### Conferences & Workshops (2025)
 
-1. Advancement in CFD tools for simulating FOWTs.
-2. Development of protocols for predicting power output of floating wind farms under various environmental constraints.
-3. Contribution to the understanding of power grid reliability in the context of offshore wind energy.
+- **MODENERLANDS — Final conference** — COST ACTION CA20109, 3–5 Sep 2025, Figueira-da-Foz, Portugal.
+- **OMAE 2025** — 44th International Conference on Ocean, Offshore & Arctic Engineering, 21–26 Jun 2025, Vancouver, Canada.
+- **SWC Project Workshop 2025** — 11–12 Mar 2025, Stockholm, Sweden.
+- **25th DNV Nordic Maritime Universities Workshop** — 30–31 Jan 2025, Technical University of Denmark (DTU), Denmark.
+- **ERA DeepWind 2025 (22nd)** — 15–17 Jan 2025, Trondheim, Norway.
 
+### Talks & Posters
+
+- To be added.
 

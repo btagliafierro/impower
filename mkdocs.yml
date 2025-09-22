@@ -10,9 +10,7 @@ nav:
   - Software:
     - "Code": 'pages/code.md'
   #- "Happening now": 'pages/happening.md'
-  - Outcome:
-    - "Overview": 'pages/outcome.md'
-    - "Conferences & Papers": 'pages/outcome_conferences.md'
+  - Outcome: 'pages/outcome.md'
   - "Contact": 'pages/contact.md'
 
 theme: 
