@@ -1,5 +1,5 @@
 site_name: IM-POWER
-site_url: https://btagliafierro.github.io/im-power/
+site_url: https://btagliafierro.github.io/impower/
 site_author: Bonaventura Tagliafierro
 
 nav:
@@ -70,7 +70,7 @@ copyright: "&copy; 2025 IM-POWER Project"
 
 # Extra configurations for footer customization
 extra:
-  homepage: https://btagliafierro.github.io/im-power/pages/
+  homepage: https://btagliafierro.github.io/impower/pages/
   version: 0.0
   generator: true  # Removes the "Made with Material for MkDocs" text
   logo: assets/images/eulogo.png  # Add this line
