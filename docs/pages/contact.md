@@ -16,6 +16,7 @@ We welcome your inquiries and feedback regarding the IM-POWER project. Please fi
 
 - **Dr. Bonaventura Tagliafierro**
   - Email: [bonaventura tagliafierro (at) angstrom.uu.se](mailto:bonaventura.tagliafierro@angstrom.uu.se)
+  - Website: [bonaventura tagliafierro]([mailto:bonaventura.tagliafierro@angstrom.uu.se](https://btagliafierro.github.io/impower/pages/index.html))
 
 - **Prof. Malin Göteman**
   - Email: [malin göteman (at) uu.se](mailto:malin.göteman@uu.se)
