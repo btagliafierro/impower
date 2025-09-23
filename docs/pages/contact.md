@@ -23,7 +23,7 @@ We welcome your inquiries and feedback regarding the IM-POWER project. Please fi
 ## Connect with Us
 
 - [LinkedIn](https://www.linkedin.com/company/im-power-project)
-- [Twitter](https://twitter.com/IM_POWER_Project)
+
 
 Thank you for your interest in the IM-POWER project!
 

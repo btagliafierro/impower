@@ -12,19 +12,19 @@ some_url: TBD
 
 ## Current Project Status
 
-As of Month 14 (M14), the project has progressed as follows:
+As of Month 14 (**M14**), the project has progressed as follows:
 
-- WP1 Project Management: Ongoing across the full duration; regular reviews and risk tracking in place.
-- WP2 Training and Transfer of Knowledge: Core activities completed (M1–M12); ongoing knowledge sharing as needed.
-- WP3 Development and Implementation: Core development completed (M3–M10); tools integrated in DualSPHysics and used in downstream work.
-- WP4 Design, Simulation, and Data Collection: Pending
-- WP5 Communication, Dissemination, and Exploitation: Ogoing (M1–M24); Targeting DeepWind 2026 and OMAE 2026
+- **WP1** Project Management: Ongoing across the full duration; regular reviews and risk tracking in place.
+- **WP2** Training and Transfer of Knowledge: Core activities completed (M1–M12); ongoing knowledge sharing as needed.
+- **WP3** Development and Implementation: Core development completed (M3–M10); tools integrated in DualSPHysics and used in downstream work.
+- **WP4** Design, Simulation, and Data Collection: Pending
+- **WP5** Communication, Dissemination, and Exploitation: Ogoing (M1–M24); Targeting DeepWind 2026 and OMAE 2026
 
 ## Conferences & Papers
 
 ### Journal Articles
 
-- To be added.
+- In preparation ...
 
 ### Conference Papers
 
@@ -50,5 +50,5 @@ As of Month 14 (M14), the project has progressed as follows:
 
 ### Talks & Posters
 
-- To be added.
+- In preparation ...
 
