@@ -4,14 +4,14 @@ summary: This page describes the background of the project
 authors: 
     - Bonaventura Tagliafierro
     - Malin Göteman
-date: 2025-09-22
+date: 2026-08-14
 some_url: TBD
 ---
 
 # Welcome to IM-Power <img src="../figures/logo.png" alt="IM-POWER Logo" style="height: 60px; vertical-align: middle; float: right; margin-left: 10px;">
 
 
-**IM-POWER** aims to develop _A numerical Integrated Model for the POWER output of floating offshore wind farms that are fully grid-connected during sea storms_. This Horizon 2022 Marie Skłodowska-Curie Postdoctoral Fellowship project, funded by the Research Executive Agency (REA), focuses on renewable energy, wind energy, and floating offshore wind. The project also incorporates aspects of Computational Fluid Dynamics, power grid management, electricity distribution systems, and Smoothed Particle Hydrodynamics [(EC CORDIS)](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/999999999/project/101109440/program/43108390/details). The objective of IM-POWER is to ultimately:
+**IM-POWER** developed _A numerical Integrated Model for the POWER output of floating offshore wind farms that are fully grid-connected during sea storms_. This Horizon Europe Marie Skłodowska-Curie Postdoctoral Fellowship project, funded by the European Union and implemented by the Research Executive Agency (REA), focuses on renewable energy, wind energy, and floating offshore wind. The project also incorporates aspects of Computational Fluid Dynamics, power grid management, electricity distribution systems, and Smoothed Particle Hydrodynamics [(EC CORDIS)](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/999999999/project/101109440/program/43108390/details). The project ran from August 2024 to August 2026 at the Division of Electricity, Uppsala University, in cooperation with Hexicon AB.
 
 <div class="methodology" style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
   <h3 style="color: #2c3e50; margin-top: 0;">Project Objectives</h3>
@@ -41,3 +41,5 @@ some_url: TBD
     <figcaption style="margin-top: 10px; font-style: italic; color: #7f8c8d;">Figure 1: IM-POWER project methodology - Model strategy overview</figcaption>
   </figure>
 </div>
+
+See [Implementation](implementation.md) for the numerical framework, and [Outcome](outcome.md) for results and outputs.

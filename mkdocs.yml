@@ -3,109 +3,97 @@ site_url: https://btagliafierro.github.io/impower/
 site_author: Bonaventura Tagliafierro
 
 nav:
-  - Main: 'pages/index.md'
+  - Home: 'pages/index.md'
   - Background: 'pages/background.md'
   - Overview: 'pages/overview.md'
   - Implementation: 'pages/implementation.md'
-  - Software:
-    - "Code": 'pages/code.md'
-  #- "Happening now": 'pages/happening.md'
+  - Software: 'pages/code.md'
   - Outcome: 'pages/outcome.md'
-  - "Contact": 'pages/contact.md'
+  - Conferences & Papers: 'pages/outcome_conferences.md'
+  - Contact: 'pages/contact.md'
 
-theme: 
+theme:
   name: material
-  language: 'en'
-  font: false  # Disable default font loading
+  language: en
   custom_dir: overrides/
-  show_sidebar: true
   favicon: assets/images/favicon.ico
   logo: assets/images/logo.png
-  include_homepage_in_sidebar: false
-  highlightjs: true
-  hijs_languages:
-      - python
+  font:
+    text: Source Serif 4
+    code: JetBrains Mono
   icon:
-      logo: assets/images/logo.png
-      annotation: material/arrow-right-circle
+    annotation: material/arrow-right-circle
   palette:
-    # Light mode configuration
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: 'blue'         # Base color as green
-      accent: 'light-blue'    # Use a lighter green for accents
-      background: 'white'      # Default light background
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    # Dark mode configuration
-
-
-
-
-
-  previous: fontawesome/solid/angle-left
-  next: fontawesome/solid/angle-right
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.instant.progress
-    - navigation.top        # Creates a back-to-top "arrow icon" at bottom RHS.
-    - navigation.tabs      # Top-level sections are rendered in a menu layer below the header.
-    - navigation.expand     # Left sidebar will expand all collapsible subsections by default.
-    - navigation.instant.progress
     - navigation.tracking
-    - navigation.sections
-    - navigation.footer 
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
 
-  
-  plugins:
+plugins:
   - search
-  - bibtex:
-    bib_file: bib.bib
   - awesome-pages:
-    collapse_single_pages: true
-copyright: "&copy; 2025 IM-POWER Project"
+      collapse_single_pages: true
 
-# Extra configurations for footer customization
+copyright: >
+  Funded by the European Union under the Horizon Europe Marie Skłodowska-Curie Actions,
+  grant agreement No 101109440 (IM-POWER). Views and opinions expressed are those of the
+  author only and do not necessarily reflect those of the European Union or the European
+  Research Executive Agency. Neither the European Union nor the granting authority can be
+  held responsible for them. &copy; 2026 IM-POWER Project
+
 extra:
-  homepage: https://btagliafierro.github.io/impower/pages/
-  version: 0.0
-  generator: true  # Removes the "Made with Material for MkDocs" text
-  logo: assets/images/eulogo.png  # Add this line
-  footer:
-  - IM-POWER has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101109440.
+  homepage: https://btagliafierro.github.io/impower/
+  generator: false
   social:
-  - icon: fontawesome/solid/envelope
+    - icon: fontawesome/solid/envelope
+      link: mailto:bonaventura.tagliafierro@angstrom.uu.se
+      name: Contact
+    - icon: fontawesome/brands/github
+      link: https://github.com/btagliafierro
+      name: GitHub
 
 markdown_extensions:
-    - tables
-    - smarty
-    - toc:
-        toc_depth: 3
-        permalink: True
-        separator: "_"
-    # - mdx_math:
-    #     enable_dollar_delimiter: True
-    - fenced_code
-    - footnotes
-    - pymdownx.arithmatex:
-        generic: true
-    - attr_list
-    - md_in_html
-    - pymdownx.superfences
-
+  - tables
+  - smarty
+  - footnotes
+  - attr_list
+  - md_in_html
+  - admonition
+  - meta
+  - toc:
+      toc_depth: 3
+      permalink: true
+      separator: "_"
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.details
 
 extra_css:
   - stylesheets/extra.css
-  - meta
-  - admonition
   - stylesheets/custom.css
-  - https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap
+
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
-
-
-
