@@ -1,4 +1,18 @@
-h1 {
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset p {
+  text-align: left;
+}
+
+.footnote-ref {
+  font-size: 0.9em;
+}
+
+
+
+/* h1 {
   color: rgb(25, 148, 52);
   font-size: 150%;
 }
@@ -7,12 +21,12 @@ p {
   font-size: 100%;
   text-align: justify;
   text-justify: inter-word;
-}
+} */
 
-.footnote-ref {
+/* .footnote-ref {
   font-size: 1.1em !important;
   color: #4fd95d !important;
-}
+} */
 
 :root {
   --md-primary-fg-color: #4caf50; /* Custom primary green */
