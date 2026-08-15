@@ -25,7 +25,7 @@ Deployment remains at pilot and early-commercial scale. Europe accounts for the 
 
 Wind farm energy production soars during stormy events[^1], but due to special control systems embedded in wind turbine generators, designed to protect them from excessive structural stress, the power output of a turbine reduces drastically — from its rated capacity of 5–10 MW to zero. For FOWTs, high wind speeds trigger harsh sea states, so that coupling effects between wind, waves and control systems are essential to understanding the individual power output[^2] ([DNV 2021](#DNV2021 "DNV. (2021). DNV-ST-0119: Floating wind turbine structures.")). This reflects badly on the stability of the total power output, and would not be conducive to grid resilience either.
 
-Storms develop above the oceans and move inland to coastal areas, carrying high-speed winds and harsh ocean sea states. The duration of the event is highly relevant: to ensure power stability and security of electricity supply, the power management system must be able to mobilise storage facilities to make up for the fluctuations that extreme weather events may trigger.
+Storms develop above the oceans and can carry high-speed winds and generate ocean sea states. The duration of the event is highly relevant: to ensure power stability and security of electricity supply, the power management system must be able to mobilise storage facilities to make up for the fluctuations that extreme weather events may trigger.
 
 [^1]: https://inews.co.uk/news/storm-eunice-turbines-generate-almost-50-per-cent-of-uk-electricity-needs-during-gale-force-winds-1470963
 

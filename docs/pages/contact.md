@@ -21,9 +21,6 @@ We welcome your inquiries and feedback regarding the IM-POWER project. Please fi
 - **Prof. Malin Göteman**
   - Email: [malin göteman (at) uu.se](mailto:malin.göteman@uu.se)
 
-## Connect with Us
-
-- [LinkedIn](https://www.linkedin.com/company/im-power-project)
 
 
 Thank you for your interest in the IM-POWER project!
